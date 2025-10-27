@@ -6,7 +6,9 @@ results in unbreakable encryption. CORA has found countless methods of removing 
 The current implementation of CORA embodies the best practices untile Generation 3 emerges.
 
 # How does the program work?
-As a demonstation, it is very simple. It requires that pycryptodome be installed, ideally in a virtual environment. Then simply run the program.
+This is very simple python file.
+It has a dependency on pycryptodome.
+Install python and pycryptodome on your machine and then run this file.
 
 There are two pipelines:
 A - two messages are encrypted using the same OTP (XOR operation). Then these two ciphertexts are XORed together which removed the OTP and results in the
